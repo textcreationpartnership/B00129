@@ -1,0 +1,556 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Paitrikes places]</title>
+            <author>Hamilton, Patrick, 1504?-1528.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1531</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B00129</idno>
+            <idno type="STC">STC 12731.4</idno>
+            <idno type="STC">ESTC S92849</idno>
+            <idno type="EEBO-CITATION">54532916</idno>
+            <idno type="OCLC">ocm 54532916</idno>
+            <idno type="VID">180791</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B00129)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180791)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2135:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Paitrikes places]</title>
+                  <author>Hamilton, Patrick, 1504?-1528.</author>
+                  <author>Frith, John, 1503-1533, tr.</author>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>S. Cock,</publisher>
+                  <pubPlace>[Antwerp :</pubPlace>
+                  <date>1531?].</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>First p. contains "Johan Frith vnto the Christen Reader".</note>
+                  <note>Translated by John Frith from the Latin.</note>
+                  <note>Publication information from STC (2nd ed.).</note>
+                  <note>Signatures: unmarked.</note>
+                  <note>Imperfect: title page lacking.</note>
+                  <note>Reproduction of original in: Trinity College (Dublin, Ireland).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Commentaries --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="introduction">
+            <pb facs="tcp:180791:1" rendition="simple:additions"/>
+            <p>
+               <gap reason="missing" extent="1+ pages">
+                  <desc>〈1… pages missing〉</desc>
+               </gap>vnto the ſaluatio<g ref="char:cmbAbbrStroke">̄</g> of the hoell worlde. For he ma<g ref="char:EOLunhyphen"/>ye pacefye goddes wrath and ſatiſfye his iuſtice (ſayeth my lorde) by applyinge theſe merites to them that lacke good workes. And ſo if y<hi rend="sup">t</hi> pope will / goddes iuſtice maye be fullye ſatiſfyed and the hoell worlde ſaved. Now if he maye ſo iuſt<g ref="char:EOLhyphen"/>lye and eaſelye ſave the hoell worlde (cherite al<g ref="char:EOLhyphen"/>ſo movinge him vnto it) and yet will not applye theſe merites ſo frutefullye / then is the faute on lye his / and he the ſonne of perdicyon and wort hye more payne then can be imagined. And ſo is not the reaſon improved but moch more ſta<g ref="char:EOLhyphen"/>bliſhed / and as I thinke inevitable.</p>
+            <p>Beholde I praye you whother my lorde of Rocheſtre hath brought oure holye father in avauncynge his power ſo hye / even in to y<hi rend="sup">e</hi> de<g ref="char:EOLhyphen"/>peſt pitte of hell. Vvhich (if my lorde ſaye true) it is impoſſible for him to avoyde. But it chaun<g ref="char:EOLunhyphen"/>ceth vnto him even as it doth cuſtomablie whe<g ref="char:EOLunhyphen"/>re ſuch pryde raigneth: for when they are at the hyeſt / then falle they doune hedlinge vnto their vtter confuſion and ruine.</p>
+            <p>If anye man feale him ſilfe greaved and not yet fullye ſatiſfyed in this matter lette him wryte his minde / and by goddes grace I ſhall make him anſwere / &amp; that with ſpede<g ref="char:punc">▪</g>
+               <lb/>
+               <g ref="char:leaf">❧</g> ☜</p>
+            <closer>Praye Chriſten reader y<hi rend="sup">t</hi> the worde of god ma<g ref="char:EOLhyphen"/>ye encreaſe. ☜ Amen.</closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:180791:1" rendition="simple:additions"/>
+            <head>Iohan Frith vnto the Chriſten Reader.</head>
+            <p>
+               <note place="margin">1. <hi>Pet.</hi> 1. 2. <hi>Tim.</hi> 3</note>
+               <seg rend="decorInit">B</seg>Leſſed be god the father of ou<g ref="char:EOLhyphen"/>re lorde Ieſus chriſte / which in theſe laſt and parylous tymes hath ſturred vpp in all contres wittneſſes vn to his ſonne to teſtifye the truth vn to the vn<g ref="char:EOLhyphen"/>faithfull / to ſaue at the leaſt ſo me from y<hi rend="sup">e</hi> ſnares of Antichriſt which leade vn to perdicyon.<note place="margin">1. <hi>Cor.</hi> 9.</note> As ye maye here perceyve by that excellent and well lerned youn<g ref="char:EOLunhyphen"/>ge man Patrike borne in ſcotlande of a noble progenye / which to teſtifye the truth ſought all meanes and toke vppon him preeſthod (euen as Paule circumcyſed timothe to wynne the wea<g ref="char:EOLhyphen"/>ke Iewes) that he might be admitted to preach the pure worde of god.<note place="margin">Actes. xvi</note> Notwithſtondinge aſſo<g ref="char:EOLhyphen"/>ne as the chamberlayne and other biſſhopes of ſcotlande had perceyved that the light beganne to ſprynge whych diſcloſed their falſhed that they convey in darkeneſſe / th<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y layed handes on him: and becauſe he wolde not denye his ſavi<g ref="char:EOLhyphen"/>oure chriſt at their inſtance they burnte him to aſhes. Nevertheleſſe god of his bounteous mer<g ref="char:EOLunhyphen"/>rye (to pubiſh vn to the hole worlde / what a ma<g ref="char:cmbAbbrStroke">̄</g> the monſters haue murthered / hath reſerved a litle treatiſe made by this patrike / which if ye li<g ref="char:EOLhyphen"/>ſte ye maye calle Patrikes places. For it entrea<g ref="char:EOLunhyphen"/>teth exactelye of certeyne comen places / which knowne / ye haue the pith of all diuinite. This treatiſe haue I turned in to the engliſh tongue to the profite of my nacyon: to whom I be<g ref="char:EOLunhyphen"/>ſech god geue light / that they maye eſpye the deceytefull pathes of perdi<g ref="char:EOLhyphen"/>cyon &amp; retourne in to the right waye which leadeth vn to li<g ref="char:EOLunhyphen"/>fe everlaſtinge. Amen.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:180791:2"/>
+            <head>Patrikes Places</head>
+            <div type="part">
+               <head>¶ Of the lawe.</head>
+               <p>THe lawe is a doctrine that biddeth good &amp; forbiddeth evell as his co<g ref="char:cmbAbbrStroke">̄</g>maundementes ſpecifye.
+<list>
+                     <head>¶ The ten commaundementes</head>
+                     <item>1 Thou ſalt worſhuppe but one god.</item>
+                     <item>2. Thou ſhalt make y<hi rend="sup">•</hi> none image to worſhuppe i<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </item>
+                     <item>3. Thou ſhalt not ſwere by his name in vayne.</item>
+                     <item>4 Holde the ſabboth daye holye.</item>
+                     <item>5 Honoure thy father and thy mother.<note place="margin">
+                           <hi>Er.</hi> 20. <hi>Mat</hi> 22.</note>
+                     </item>
+                     <item>6 Thou ſhalt not kille</item>
+                     <item>7. Thou ſhalt not committe advoutry.</item>
+                     <item>8 Thou ſhalt not ſteale.</item>
+                     <item>9 Thou ſhalt beare no falſe witneſſe.</item>
+                     <item>10 Thou ſhalt not deſyre ought that belongeth to thy neyghboure</item>
+                  </list>
+               </p>
+               <div type="section">
+                  <head>¶ He that loveth god and his neyghboure kepeth all the commaundementes of god</head>
+                  <p>Love thy lorde god with all thyne harte / with all thy ſoule and with all thy mynde.<note place="margin">Maior. Deu. <hi>6</hi> Mat. <hi>22</hi>
+                     </note> This is y<hi rend="sup">e</hi> firſt and greate commaundement: The ſeconde is like vn to this: that is / love thy neyghboure as thy ſilfe. In theſe two commaundementes hange all the lawe and the prophetes.</p>
+               </div>
+               <div type="section">
+                  <head>¶ He that loueth god / loueth his neyghboure.<note place="margin">
+                        <hi>Minor.</hi> 1. <hi>Joa.</hi> 4</note>
+                  </head>
+                  <p>If a man ſaye / I loue god / and yet hateth his brother / he is a lyar.</p>
+                  <p>He that loveth not his brother whom he hath ſene / how can he love god who<g ref="char:cmbAbbrStroke">̄</g> he hath not ſene</p>
+               </div>
+               <div type="section">
+                  <head>¶ He that loueth his neyghboure as him ſelfe kepeth all the commaundementes of god<note place="margin">Co<g ref="char:cmbAbbrStroke">̄</g>cluſion</note>
+                  </head>
+                  <p>Vvhat ſo ever ye wolde that men ſhulde do to you / even ſo do to them.<note place="margin">
+                        <hi>Mat.</hi> 7.</note> For this is the lawe &amp; the prophetes.<note place="margin">
+                        <hi>Rom.</hi> 13.</note> He that loveth his neyghboure / fulfilleth the lawe. Thou ſhalt not committe advoutrye. Thou ſhalt not kill Thou ſhalt not ſteale. Thou ſhalt not beare falſe witneſſe.</p>
+                  <p>
+                     <pb facs="tcp:180791:2" rendition="simple:additions"/>
+Thou ſhalt not deſire / and ſo forth if there be any other commaundement / are all comprehen<g ref="char:EOLhyphen"/>ded in this ſainge: loue thy neyghboure as thy ſilfe.<note place="margin">Gala. 5</note> All the lawe is fulfilled in one worde / y<hi rend="sup">t</hi> is / love thy neyghboure as thy ſelfe.</p>
+               </div>
+               <div type="section">
+                  <head>¶ He y<hi rend="sup">t</hi> loveth god kepeth al y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>maundme<g ref="char:cmbAbbrStroke">̄</g>tes</head>
+                  <p>He that loveth his neighboure kepeth all y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>maundementes of god Ro. xiij. Gala. v. &amp; he y<hi rend="sup">t</hi> loveth god loveth his neyghboure.<note place="margin">Maior</note> 1. Ioan. iiij. ergo he y<hi rend="sup">t</hi> loueth god kepith all his commaunde mentes.<note place="margin">Minor.</note> ¶ He that hath the faith loueth god My father loveth you / becauſe ye loue me and beleve that I come of god.<note place="margin">Ioan. 16</note>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>¶ He that hath the faith kepeth all the commaundementes of god<note place="margin">Concluſio</note>
+                  </head>
+                  <p>He that hath the fayth / loveth god / a<g ref="char:cmbAbbrStroke">̄</g>d he that loveth god kepeth all his commaundementes: ergo he that hath the faith kepeth all the com<g ref="char:EOLhyphen"/>maundementes of god</p>
+               </div>
+               <div type="section">
+                  <head>¶ He that kepeth one commaundement of god kepeth them all.</head>
+                  <p>For with out faith it is impoſſible to kepe any of the commaundeme<g ref="char:cmbAbbrStroke">̄</g>tes of god / and he y<hi rend="sup">t</hi> hath the faith kepeth all the commaundementes of god:<note place="margin">
+                        <hi>Hebre.</hi> 11.</note> ergo he that kepeth one commaundement of god kepeth them all.</p>
+               </div>
+               <div type="section">
+                  <head>¶ He that kepeth not all the commaunde mentes of god kepeth not one of the<g ref="char:cmbAbbrStroke">̄</g>.</head>
+                  <p>He that kepeth one commaundement of god / he kepeth all / ergo he that kepeth not all the co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>maun dementes of god kepeth not one of them</p>
+               </div>
+               <div type="section">
+                  <head>¶ It is not in oure power to kepe anye of the commaundementes of god</head>
+                  <p>Vvith out grace / it is impoſſible to kepe anye of the commaundementes of god / &amp; grace is not in oure power: ergo it is not in oure power to
+<pb facs="tcp:180791:3" rendition="simple:additions"/>kepe anye of the commaundeme<g ref="char:cmbAbbrStroke">̄</g>tes of god. eve<g ref="char:cmbAbbrStroke">̄</g> ſo maye you reaſon concerninge the holye goſt and fayth.</p>
+               </div>
+               <div type="section">
+                  <head>The lawe was geue<g ref="char:cmbAbbrStroke">̄</g> to ſhew vs oure ſinne</head>
+                  <p>By the lawe cometh the knowlege of ſynne I knew not what ſinne me<g ref="char:cmbAbbrStroke">̄</g>t but thorow y<hi rend="sup">e</hi> lawe I had not knowne what luſt had me<g ref="char:cmbAbbrStroke">̄</g>t / excepte the lawe had ſaide thou ſhalt not luſt.<note place="margin">
+                        <hi>Roma.</hi> 3. <hi>Roma.</hi> 7.</note> with out y<hi rend="sup">e</hi> lawe ſinne was deed / y<hi rend="sup">t</hi> is it moued me not / neither wiſt I y<hi rend="sup">t</hi> it was ſinne / which not withſto<g ref="char:cmbAbbrStroke">̄</g>dinge was ſinne &amp; forbobede<g ref="char:cmbAbbrStroke">̄</g> by y<hi rend="sup">e</hi> lawe.</p>
+               </div>
+               <div type="section">
+                  <head>The lawe bidd<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>th vs do that thinge wh<g ref="char:EOLunhyphen"/>ych is impoſſible for vs.</head>
+                  <p>For it biddeth vs kepe the co<g ref="char:cmbAbbrStroke">̄</g>maundeme<g ref="char:cmbAbbrStroke">̄</g>tes of god / &amp; yet is it not in our power to kepe anye off the<g ref="char:cmbAbbrStroke">̄</g> / ergo it biddeth vs do that is impoſſible for vs. Thou wilt ſaye where to doeth god bid vs do that is impoſſible for vs? I anſwere / to make the knowe that thou art but euell / and that the<g ref="char:EOLhyphen"/>re is no remedye to ſaue the in thine awne han<g ref="char:EOLunhyphen"/>de / &amp; y<hi rend="sup">t</hi> thou mayſt ſeke remedie at ſumme other for the lawe doeth nought but commaunde the.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Off the goſpell.</head>
+               <p>THe goſpell ys as moch to ſaye in oure ton<g ref="char:EOLunhyphen"/>gue / as good tydynges lyke as one of the<g ref="char:EOLhyphen"/>ſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> are
+<list>
+                     <item>Chriſt is the ſavioure of the worlde<note place="margin">
+                           <hi>Ioan</hi> 4.</note>
+                     </item>
+                     <item>Chriſt is oure ſauioure<note place="margin">
+                           <hi>Luce.</hi> 2.</note>
+                     </item>
+                     <item>Chriſt dyed for vs<note place="margin">
+                           <hi>Roma.</hi> 5.</note>
+                     </item>
+                     <item>Chriſt died for oure ſynnes<note place="margin">
+                           <hi>Roma.</hi> 4.</note>
+                     </item>
+                     <item>Chriſt bought vs with hys bloude<note place="margin">1. <hi>Petri.</hi> 1.</note>
+                     </item>
+                     <item>Chriſt wyſhe vs with hys bloude<note place="margin">
+                           <hi>Apn.</hi> 1.</note>
+                     </item>
+                     <item>Chriſt offred hym ſylfe for vs.<note place="margin">
+                           <hi>Heb</hi> 2.7.9.</note>
+                     </item>
+                     <item>Chriſt bare our ſinnes on his backe.<note place="margin">1. <hi>Metri.</hi> 2</note> Eſa. <hi>53</hi>
+                     </item>
+                     <item>Chriſt came in to thys worlde to ſaue ſinners.<note place="margin">1. <hi>Timo.</hi> 1.</note>
+                     </item>
+                     <item>
+                        <pb facs="tcp:180791:3"/>
+Chriſt came in to this worlde to take awaye ou<g ref="char:EOLunhyphen"/>re ſynnes<note place="margin">1 <hi>Ioan.</hi> 2.3</note>
+                     </item>
+                     <item>Chriſt was the price that was geuen for vs and oure ſynne<note place="margin">1. <hi>Timo.</hi> 2</note>
+                     </item>
+                     <item>Chriſt was made debtoure for vs.<note place="margin">
+                           <hi>Gene.</hi> 3.</note>
+                     </item>
+                     <item>Chriſt hath payed oure debte / for he died for vs<note place="margin">
+                           <hi>Theſſ.</hi> 5.</note>
+                     </item>
+                     <item>Chriſt hath made ſatiſfaccio<g ref="char:cmbAbbrStroke">̄</g> for vs &amp; oure ſinne<note place="margin">1. <hi>Cor.</hi> 1.</note>
+                     </item>
+                     <item>Chriſt is oure rightwyſenes</item>
+                     <item>Chriſt is oure ſatiſfaccyon</item>
+                     <item>Chriſt is oure redemptyon</item>
+                     <item>Cyriſt is oure goodnes</item>
+                     <item>Chriſt hath pacefyed the father of heuen</item>
+                     <item>Chriſt is oures and all hys<note place="margin">
+                           <hi>Roma.</hi> 8.</note>
+                     </item>
+                     <item>Chriſt hath delyuered vs from the lawe / from the deuell and from hell.</item>
+                     <item>The father of heauen hath forgeuen vs oure ſynnes for chriſtes ſake. Or any ſuch as declare vn to vs the mercye of godA</item>
+                  </list>
+               </p>
+               <div type="section">
+                  <head>The nature of the lawe and the goſpell.</head>
+                  <p>
+                     <list>
+                        <item>The lawe ſheweth vs oure ſinne</item>
+                        <item>The goſpel ſh<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>weth vs remedie for it</item>
+                        <item>The lawe ſheweth vs oure condempnacyon</item>
+                        <item>The goſpell ſheweth vs oure redempcion</item>
+                        <item>The lawe is the worde of Ire</item>
+                        <item>The goſpell is the worde of grace</item>
+                        <item>The lawe is the worde of deſpayre</item>
+                        <item>The goſpell is the worde of comforte</item>
+                        <item>The lawe is the worde of vnreſt</item>
+                        <item>The goſpell is the worde of peace</item>
+                     </list>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>A dyſputacyon betwene the lawe and the goſp<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ll</head>
+                  <p>
+                     <list>
+                        <item>The lawe ſayeth / paye thy dette</item>
+                        <item>The goſpell ſayeth Chriſt hath payed it</item>
+                        <item>The lawe ſayeth thou are a ſynner / deſpayre and thou ſhalt be damned.</item>
+                        <item>
+                           <pb facs="tcp:180791:4"/>
+The goſpell ſaieth / thy ſinnes are forgeuen the be of good comforte thou ſhalt be ſaued.</item>
+                        <item>The lawe ſayeth / make a mendes for thy ſinne</item>
+                        <item>The goſpel ſaieth / Chriſt hath made it for the.</item>
+                        <item>The lawe ſaieth / the father of heave<g ref="char:cmbAbbrStroke">̄</g> is wrath with the.</item>
+                        <item>The goſpel ſaieth / Chriſt hath pace fyed hym wyth his bloude.</item>
+                        <item>The lawe ſaieth where is thi right wiſeneſſe / goodneſſe &amp; ſatiſfac<g ref="char:EOLunhyphen"/>cyon?</item>
+                        <item>The goſpell ſayeth / Chriſt is thy right wyſeneſſe thy goodneſſe and ſatiſfaccyon.</item>
+                        <item>The lawe ſaieth thou arte bounde and obliged to me / to the devyll and to hell.</item>
+                        <item>The goſpel ſaieth / Chriſt hath deliuered the fro<g ref="char:cmbAbbrStroke">̄</g> them all.</item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>¶ Of fayth.</head>
+               <p>FAith is to beleue god: like as Abraha<g ref="char:cmbAbbrStroke">̄</g> bele<g ref="char:EOLhyphen"/>ued god and it was imputed vn to him for rygutwyleneſſe.<note place="margin">Gene. <hi>15.</hi>
+                  </note>
+               </p>
+               <p>¶ He that beleueth god / beleueth his worde. To veleue one is to beleue his worde and to re<g ref="char:EOLunhyphen"/>counte it true that he ſayeth.</p>
+               <div type="section">
+                  <head>¶ He y<hi rend="sup">t</hi> beleueth not goodes word / beleueth not god hym ſelfe.</head>
+                  <p>He that beleueth not goddes worde he cou<g ref="char:cmbAbbrStroke">̄</g>teth hym falſe &amp; a lyare / a<g ref="char:cmbAbbrStroke">̄</g>d beleueth not y<hi rend="sup">t</hi> he maye and will fullfyll his worde:<note place="margin">1. <hi>Ioan.</hi> 5.</note> and ſo he denyeth both the might of god a<g ref="char:cmbAbbrStroke">̄</g>d god him ſelfe.</p>
+               </div>
+               <div type="section">
+                  <head>¶ Fayth is the gyfte of god<g ref="char:punc">▪</g>
+                  </head>
+                  <p>Euerye good thinge is the gifte of god / fayeth is good ergo faith is the gifte of god.<note place="margin">Iaco. <hi>1.</hi>
+                     </note>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>¶ Faith is not in oure power</head>
+                  <p>The gifte of god is not in oure power / faith ys the girte of god ergo faith is not in oure power</p>
+               </div>
+               <div type="section">
+                  <head>¶ with out faith it is impoſſible to pleace god</head>
+                  <p>All that cometh not of faith is ſinne / for with out faith ca<g ref="char:cmbAbbrStroke">̄</g> no man pleace god.<note place="margin">Ro. <hi>14.</hi> Heb. <hi>11.</hi>
+                     </note> Beſides that he
+<pb facs="tcp:180791:4" rendition="simple:additions"/>that lacketh faith / he truſteth not god / he that truſteth not god truſteth not his worde / he that truſteth not his worde holdeth hun falſe and a lyar / he that holdeth hym falſe and a lyar he be<g ref="char:EOLhyphen"/>leveth not that he maye do that he promiſeth / and ſo denieth he that he is god. And how can a man beinge of this facyon pleace hym? No ma<g ref="char:EOLhyphen"/>ner of waye / yee ſuppoſe he did al y<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> dedes that euer dyd man or angell.</p>
+                  <p>All that is done in faith pleaſeth God Bight is the worde of god a<g ref="char:cmbAbbrStroke">̄</g>d all his workes in faith. Lorde thine yien loke to faith / y<hi rend="sup">t</hi> is as mo<g ref="char:EOLunhyphen"/>ch to ſaie as lorde thou delighteſt in faith.</p>
+                  <p>God loveth him that beleueth in hym / how can they then diſpleace hym He that hath the faith is iuſt and good / and a good tre bereth good frute: ergo all that is done in fayth pleaſeth god.</p>
+                  <p>Morouer / he that hath the faith beleueth god: he that beleueth god / beleueth his worde: he y<hi rend="sup">t</hi> beleueth hys worde / woteth well that he is true and faithfull and maye not lye. But knoweth y<hi rend="sup">t</hi> he both maye a<g ref="char:cmbAbbrStroke">̄</g>d will fulfill his worde / how can he the<g ref="char:cmbAbbrStroke">̄</g> diſpleaſe him? for thou canſt not do anye greater honoure to god / the<g ref="char:cmbAbbrStroke">̄</g> to counte him true. Thou wilt then ſaye that thefte / murther / ad<g ref="char:EOLhyphen"/>voutrye and all vices pleace god. Naye verelye for they can not be done in faith: for a good tre bereth good frute.</p>
+               </div>
+               <div type="section">
+                  <head>He that hath the faith wotteth well that he pleaſeth god<g ref="char:punc">▪</g>
+                  </head>
+                  <p>For all that is done in faith pleaſeth god</p>
+               </div>
+               <div type="section">
+                  <head>Fayth is a ſureneſſe.</head>
+                  <p>Fayth is a ſure confidence of thynges whych are hoped for / and a certentye of thinges which are not ſene.<note place="margin">Hebre. <hi>11.</hi>
+                     </note>
+                  </p>
+                  <p>
+                     <pb facs="tcp:180791:5" rendition="simple:additions"/>
+The ſame ſprete certeneth oute ſprete that we are the children of god More ouer he that hath the faith wotteth well that god wyll fulfyll hys worde:<note place="margin">Roms. <hi>8.</hi>
+                     </note> ergo fayth ys a ſureneſſe.</p>
+               </div>
+               <div type="section">
+                  <head>A man is iuſtified by fayth</head>
+                  <p>Abraham beleued god a<g ref="char:cmbAbbrStroke">̄</g>d it was unputed vn<g ref="char:EOLhyphen"/>to him for rightwyſenes.<note place="margin">Gene. <hi>15.</hi>
+                     </note>
+                  </p>
+                  <p>Vve ſuppoſſe ther<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ore that a man ys iuſtifyed by fayth with out the dedes of the lawe He that worketh not but beleveth on hym that iuſtifyeth the vngodlye / hys fayth is counted to hym for rightwyleneſſe.<note place="margin">Roma. <hi>3.</hi>
+                     </note> 
+                     <note place="margin">Roma. <hi>4.</hi>
+                     </note>
+                  </p>
+                  <p>The iuſt ma<g ref="char:cmbAbbrStroke">̄</g> liueth by his faith.<note place="margin">Abacuc. <hi>2.</hi> Gala. <hi>2.</hi>
+                     </note> Abacuc. <hi>2.</hi> Ro. <hi>1</hi> Vve wotre that a man ys not iuſtifyed by the dedes of the lawe / but by the fayth of Ieſu chri<g ref="char:EOLhyphen"/>ſte. And we beleue in Ieſu chriſte / that we maye be iuſtifyed by the fayth of chriſt and not by the dedes of the lawe.</p>
+               </div>
+               <div type="section">
+                  <head>Of the fayth of chriſt</head>
+                  <p>The fayth of chriſt / is to beleue in him / that ys to beleue his worde and to beleve that he wyll helpe the in all thy nede and delyuer the from al euell. thou wylt aſke me what worde? I anſwe<g ref="char:EOLhyphen"/>re / the goſpell.</p>
+               </div>
+               <div type="section">
+                  <head>He that beleueth in Chriſt ſhall be ſaued</head>
+                  <p>He that beleueth the ſonne hath euerlaſtinge li<g ref="char:EOLunhyphen"/>fe.<note place="margin">Ioan. <hi>3.</hi> Ioan. <hi>6.</hi>
+                     </note> verelye / verelye I ſaye vn to you / he that be leueth in me hath eueriaſtinge life.</p>
+                  <p>This I write vn to you that beleue on the na<g ref="char:EOLhyphen"/>me of the ſonne of god that ye maie know how that ye haue eternall life<note place="margin">1. <hi>Ioan.</hi> 5.</note>
+                  </p>
+                  <p>Thomas becauſe thou haſt ſene me / therfore haſt thou beleued,<note place="margin">Ioan. <hi>20.</hi>
+                     </note> happie are they y<hi rend="sup">t</hi> haue not ſe<g ref="char:EOLhyphen"/>ne / and yet haue beleued in me.</p>
+                  <p>Al y<hi rend="sup">e</hi> prophetes to him beare witneſſe / y<hi rend="sup">t</hi> who ſo<note place="margin">Actes. <hi>10</hi>
+                     </note>
+                     <pb facs="tcp:180791:5"/>euer beleueth in him ſhal haue remiſſion of their ſinnes.<note place="margin">
+                        <hi>Actes.</hi> 16.</note> Vvhat muſt I do y<hi rend="sup">t</hi> I maye be ſaued y<hi rend="sup">e</hi> apoſtles anſwered beleue in y<hi rend="sup">e</hi> lorde Ieſus chri<g ref="char:EOLhyphen"/>ſte &amp; thou ſhalt be ſaued.</p>
+                  <p>If thou knowledge with thy mouth that Ieſus is the lorde.<note place="margin">Roma. <hi>10</hi>
+                     </note> And beleue with thyne harte y<hi rend="sup">t</hi> god rayſed him vp fro<g ref="char:cmbAbbrStroke">̄</g> deeth thou ſhalt be ſate.</p>
+               </div>
+               <div type="section">
+                  <head>He y<hi rend="sup">t</hi> beleueth not in chriſt ſhalbe co<g ref="char:cmbAbbrStroke">̄</g>de<g ref="char:cmbAbbrStroke">̄</g>pned</head>
+                  <p>He that beleueth not ſhalbe dampned He that beleueth not the ſonne ſhall neuer ſe y<hi rend="sup">e</hi> life but the ire of god bideth vppon hym.<note place="margin">Marc. <hi>16.</hi> Idan. <hi>3.</hi>
+                     </note>
+                  </p>
+                  <p>The ho<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ye goſt ſhall reproue the worlde of ſyn<g ref="char:EOLhyphen"/>ne / becauſe they beleue not in me</p>
+               </div>
+               <div type="section">
+                  <head>They that beleue in Ieſu chriſt are the ſon<g ref="char:EOLunhyphen"/>nes of god.</head>
+                  <p>ye are al the ſonnes of god becauſe ye beleue in Ieſu chriſt.<note place="margin">Gala. <hi>3.</hi>
+                     </note>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>He y<hi rend="sup">t</hi> beleueth y<hi rend="sup">t</hi> chriſt is y<hi rend="sup">e</hi> ſo<g ref="char:cmbAbbrStroke">̄</g>n of god is ſafe</head>
+                  <p>Peter ſaied / thou arte chriſt y<hi rend="sup">e</hi> ſonne of y<hi rend="sup">e</hi> lyuin<g ref="char:EOLunhyphen"/>ge god.<note place="margin">Mat. <hi>16.</hi>
+                     </note> Ieſꝰ anſwered &amp; ſaied vnto him happye art thou Simo<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> ſo<g ref="char:cmbAbbrStroke">̄</g>ne of Ionas for fleſh &amp; blou<g ref="char:EOLunhyphen"/>de haue not opened to the that / but my father that is in heaven.</p>
+                  <p>Vve haue beleued and knowe that thou arte Chriſt the ſonne of the lyuynge god.<note place="margin">Ioan. <hi>6.</hi>
+                     </note>
+                  </p>
+                  <p>I beleue that thou arte Chriſt the ſonne of god which ſhulde come in to the worlde Theſe thi<g ref="char:cmbAbbrStroke">̄</g>ges are write<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> ye might beleue y<hi rend="sup">t</hi> Ie<g ref="char:EOLunhyphen"/>ſus is chriſt y<hi rend="sup">e</hi> ſonne of god / a<g ref="char:cmbAbbrStroke">̄</g>d y<hi rend="sup">t</hi> ye in beleuyn<g ref="char:EOLhyphen"/>ge might haue life I beleue that Ieſus is the ſonne of god.<note place="margin">Actes. <hi>8.</hi>
+                     </note>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>He y<hi rend="sup">t</hi> beleueth god. beleueth the goſpell.</head>
+                  <p>He y<hi rend="sup">t</hi> beleueth god beleueth his worde &amp; y<hi rend="sup">e</hi> goſ<g ref="char:EOLhyphen"/>pell is his worde / therfore he y<hi rend="sup">t</hi> beleueth god be<g ref="char:EOLhyphen"/>leueth y<hi rend="sup">e</hi> goſpel. As / chriſt is y<hi rend="sup">e</hi> ſauiour of y<hi rend="sup">e</hi> wo<g ref="char:EOLhyphen"/>rlde. Chriſt is oute ſauioure.<note place="margin">Ioan. <hi>4.</hi>
+                     </note> Chriſt bought vs with his bloude.</p>
+                  <p>
+                     <pb facs="tcp:180791:6"/>
+Chriſt wiſh vs with his bloude.<note place="margin">Apo. <hi>1.</hi> Heb. <hi>7.8. 1.</hi> Pet. <hi>2.</hi>
+                     </note>
+                  </p>
+                  <p>Chriſt. offered him ſelfe for vs.</p>
+                  <p>Chriſt bare oure ſinnes on his awne backe. &amp;c.</p>
+               </div>
+               <div type="section">
+                  <head>¶ He that beleueth not the goſpell beleveth not god.</head>
+                  <p>He y<hi rend="sup">t</hi> beleveth not goddes worde / beleveth not him ſelfe / &amp; the goſpell is gods worde / ergo he y<hi rend="sup">t</hi> beleueth not the goſpell beleueth not God him ſelfe / &amp; conſequentlye they that beleue not the aboue writen and ſuch other / beleve not god.</p>
+               </div>
+               <div type="section">
+                  <head>He y<hi rend="sup">t</hi> beleveth the goſpell ſhall be ſaffe.</head>
+                  <p>Goo ye in to all the worlde and preach the goſ<g ref="char:EOLhyphen"/>pell vnto euery creature / he that beleveth &amp; is baptiſed ſhalbe ſaved but he that beleueth not ſhalbe condempned<note place="margin">Marc. <hi>16</hi>
+                     </note>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>A compariſon betwene faith and vnfaith fulneſſe or incredulyte.</head>
+                  <p>
+                     <list>
+                        <item>Faith is the roote of all good</item>
+                        <item>Incredulite is the roote of all evell</item>
+                        <item>Faith maketh god and man good frendes</item>
+                        <item>Incredulite maketh them foes.</item>
+                        <item>Faith bringeth god and man together</item>
+                        <item>Incredulite ſundereth them.</item>
+                        <item>All y<hi rend="sup">t</hi> fayth doth pleaſeth god.</item>
+                        <item>Faith onlye maketh a ma<g ref="char:cmbAbbrStroke">̄</g> good and rightwiſe.</item>
+                        <item>Incredulite onlye maketh him in iuſt and evell.</item>
+                        <item>Faith maketh a man a membre of Chriſt</item>
+                        <item>Incredulite maketh him a membre of the deuell</item>
+                        <item>Faith maketh a man the enheritoure of heaue<g ref="char:cmbAbbrStroke">̄</g>.</item>
+                        <item>Incredulite maketh him enheritoure of hell</item>
+                        <item>Faith maketh a man the ſeruaunte of god.</item>
+                        <item>Incredulite maketh him y<hi rend="sup">•</hi> ſeruau<g ref="char:cmbAbbrStroke">̄</g>te of y<hi rend="sup">•</hi> deuell</item>
+                        <item>Faith ſheweth vs god to be a ſwete father</item>
+                        <item>Incredulite ſheweth him a terrible iudge.</item>
+                        <item>Faith holdeth ſtiffe by the words of god</item>
+                        <item>
+                           <pb facs="tcp:180791:6"/>
+Incredulite Wauereth here and there</item>
+                        <item>Faith counteth and holdeth god to be true.</item>
+                        <item>Incredulite holdeth him falſe and a lyar</item>
+                        <item>Faith knoweth god.</item>
+                        <item>Incredulite knoweth him not</item>
+                        <item>Faith loveth both god and hir neyghboure</item>
+                        <item>Incredulite loueth neyther nother</item>
+                        <item>Faith onlye ſaueth vs</item>
+                        <item>Incredulite onlye condempneth vs</item>
+                        <item>Faith extolleth god and his deades.</item>
+                        <item>Incredulite extolleth her ſelfe &amp; her awne dedes</item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Of hope</head>
+               <p>HOpe is a truſtye lokinge after the thinge y<hi rend="sup">t</hi> is promiſed vs to come: as we hope after euerlaſtinge ioye which chriſt hath promiſed vn<g ref="char:EOLunhyphen"/>to all that beleue in him.</p>
+               <div type="section">
+                  <head>We ſhulde put oure hope and truſt in god alonlye and in no nother thinge</head>
+                  <p>It is good to truſt in god and not in man He that truſteth in his awne harte is a fole It is good to truſt in god and not in princes They ſhalbe like vnto the images they make &amp; all that truſt in them He that truſteth in his awne thoughtes doth vngodlie Curſed be he that truſteth in ma<g ref="char:cmbAbbrStroke">̄</g>.<note place="margin">Pſal. <hi>117.</hi> Pſal. <hi>113</hi>
+                     </note> Bid the rich me<g ref="char:cmbAbbrStroke">̄</g> of this worlde y<hi rend="sup">t</hi> they truſt not i<g ref="char:cmbAbbrStroke">̄</g> their vnſta<g ref="char:EOLunhyphen"/>ble riches / but y<hi rend="sup">t</hi> they truſt in the lyvinge god.<note place="margin">Pro. <hi>11.</hi> Hie. <hi>17</hi>
+                     </note> It is harde for them that truſt in monye to en<g ref="char:EOLhyphen"/>tre in to the kingdome of heaven Moreouer we ſhulde truſt in him onlye y<hi rend="sup">t</hi> ma<g ref="char:EOLhyphen"/>ye helpe vs god onlye maye helpe vs / ergo we ſhulde truſt in him onlye.<note place="margin">Mar. <hi>10</hi>
+                     </note> well is them that truſt in god and wo is them that truſt not in him wel is the man that truſteth in god for god ſhal<g ref="char:EOLunhyphen"/>be his truſt<note place="margin">Hier. <hi>17</hi>
+                     </note>
+                     <pb facs="tcp:180791:7" rendition="simple:additions"/>He y<hi rend="sup">•</hi> truſteth in him ſhall vnderſtonde y<hi rend="sup">•</hi> verite They ſhall all reioyce y<hi rend="sup">•</hi> truſt in the / they ſhall ever be glade and thou wilt defende them.<note place="margin">
+                        <hi>Sapi.</hi> 3. <hi>Pſal.</hi> 5</note>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Of cherite.</head>
+               <p>CHerite is the loue of thy neyghboure.</p>
+               <div type="section">
+                  <head>The rule of cherite is this.</head>
+                  <p>Doo as thou woldeſt be done to. For cherite holdeth all a like the rich and the poore / the fren<g ref="char:EOLunhyphen"/>de and the foo / the thankefull and vnthankeful the kinſeman and ſtraunger.</p>
+                  <p>A compari<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>on betwene faith / hope &amp; cherite. Faith cometh of y<hi rend="sup">e</hi> worde of god / hope cometh of faith / and cherite ſpringeth of them both. Faith beleueth y<hi rend="sup">e</hi> worde / hope truſteth after it y<hi rend="sup">t</hi> is promiſed by the word / cherite doth good vn<g ref="char:EOLunhyphen"/>to her neyghboure thorow the loue that it hath to god &amp; gladnes that is with in her ſelfe.</p>
+                  <p>Faith loketh to god &amp; his worde / hope loketh vn to his gifte &amp; rewarde / cherite loketh on her ney<g ref="char:EOLunhyphen"/>ghboures profitte. Faith receav<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>th god / hope receaveth his rewarde / Cherite loueth her ney<g ref="char:EOLhyphen"/>ghboure with a glad harte / &amp; y<hi rend="sup">t</hi> with out anye reſpecte of rewarde. Faith pertayneth to god onlye / hope to his rewarde / &amp; cherite to her ney<g ref="char:EOLhyphen"/>ghboure.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Of workes</head>
+               <p>NO maner of workes make vs rightwyſe we beleue y<hi rend="sup">t</hi> a man ſhall be iuſtefyed wyth out workes.<note place="margin">
+                     <hi>Gala.</hi> 2.</note> No ma<g ref="char:cmbAbbrStroke">̄</g> is iuſtefyed by the dedes of the lawe / but by the faith of Ieſu Chriſt / and we beleue in Ieſu chriſt y<hi rend="sup">t</hi> we maye be iuſtefyed by the faith of chriſt &amp; not by the dedes of y<hi rend="sup">e</hi> law. If rightwiſenes came by y<hi rend="sup">e</hi> lawe the<g ref="char:cmbAbbrStroke">̄</g> died chriſt in vayne.<note place="margin">
+                     <hi>Gala.</hi> 2. <hi>Gala.</hi> 3.</note> That no man is iuſtefyed by the la<g ref="char:EOLhyphen"/>we it is manifeſt / for a rightwyſe ma<g ref="char:cmbAbbrStroke">̄</g> lyveth by his faith / but the lawe is not of faith.</p>
+               <p>Moreouer / ſith chriſt the maker of heavyn and
+<pb facs="tcp:180791:7" rendition="simple:additions"/>erth &amp; all y<hi rend="sup">•</hi> is therin / behoved to dye for vs / we are co<g ref="char:cmbAbbrStroke">̄</g>pelled to graunt y<hi rend="sup">t</hi> we were ſo farre drou<g ref="char:EOLunhyphen"/>ned &amp; ſunke<g ref="char:cmbAbbrStroke">̄</g> in ſinne y<hi rend="sup">t</hi> neyther oure dedes nor all the treaſures y<hi rend="sup">t</hi> ever god made or might ma<g ref="char:EOLhyphen"/>ke / might haue holpe vs out of them / ergo no de<g ref="char:EOLunhyphen"/>des nor workes maye make vs rightwyſe.</p>
+               <div type="section">
+                  <head>No workes make vs vnrightwyſe.</head>
+                  <p>For if anye workes made vs vnryghtwyſe / then the co<g ref="char:cmbAbbrStroke">̄</g>trarye workes ſhulde make vs right<g ref="char:EOLunhyphen"/>wyſe. But it is proved y<hi rend="sup">t</hi> no workes can make vs rightwyſe / ergo no workes make vs vnrigh<g ref="char:EOLunhyphen"/>wiſe. ¶ workes make vs neyther good nor evel It is ꝓued y<hi rend="sup">t</hi> no workes neyther make vs righ<g ref="char:EOLunhyphen"/>twyſe nor vnrightwyſe / ergo no workes make vs neyther good nor evel For rightwyſe &amp; good ar one thinge &amp; vnrightwyſe &amp; evel likewiſe one God workes make not a good ma<g ref="char:cmbAbbrStroke">̄</g> nor evell workes an evell ma<g ref="char:cmbAbbrStroke">̄</g> / but a good ma<g ref="char:cmbAbbrStroke">̄</g> maketh god workes &amp; an evell man evell workes.</p>
+                  <p>Good frute maketh not the tre good / nor evell frute the evell tre / but a good tre bereth good frute &amp; an evell tre evell frute.<note place="margin">
+                        <hi>Mat.</hi> 7.</note> A good ma<g ref="char:cmbAbbrStroke">̄</g> can not doo evell workes nor an evel ma<g ref="char:cmbAbbrStroke">̄</g> good wor<g ref="char:EOLhyphen"/>kes / for a good tre ca<g ref="char:cmbAbbrStroke">̄</g> not bere evell frute nor an evell tre good frute. A ma<g ref="char:cmbAbbrStroke">̄</g> is good ere he do good workes / &amp; evell ere he doo evel workes / for the tre is good ere it bere good frute &amp; evel ere it bere evel frute ¶ Euerye ma<g ref="char:cmbAbbrStroke">̄</g> is eyther good or evel. Everye tre is eyther good or evel / eyther make ye the tre good &amp; y<hi rend="sup">e</hi> frute good alſo / or els make the tre evel &amp; the frute of it likewiſe evel.<note place="margin">
+                        <hi>Mat.</hi> 12</note> Euerye ma<g ref="char:cmbAbbrStroke">̄</g>nes workes are eyther good or evell For all frute trees are eyther good or evel.<note place="margin">
+                        <hi>Mat.</hi> 12</note> Ey<g ref="char:EOLunhyphen"/>ther make ye y<hi rend="sup">e</hi> tre good &amp; the frute god alſo / or els make y<hi rend="sup">e</hi> tre evel &amp; the frute of it likewiſe evel A good ma<g ref="char:cmbAbbrStroke">̄</g> is knowne by his workes for a good man doth good workes &amp; an euell evell workes
+<pb facs="tcp:180791:8" rendition="simple:additions"/>ye ſhall knowe the<g ref="char:cmbAbbrStroke">̄</g> by their frute / for a good tre bereth good frute / and an evell tre evell frute A man is likened to the tre and his workes to the frute of the tre Beware of y<hi rend="sup">e</hi> falſe ꝓphetes whych come to you in ſhepes clothinge / but inwardlie they are raue<g ref="char:EOLunhyphen"/>ninge wolues.<note place="margin">
+                        <hi>Mat.</hi> 7.</note> ye ſhal knowe the<g ref="char:cmbAbbrStroke">̄</g> by their frutes</p>
+               </div>
+               <div type="section">
+                  <head>None of oure workes neyther ſaue vs nor condempne vs.</head>
+                  <p>It is ꝓued y<hi rend="sup">t</hi> no workes make vs neyther righ<g ref="char:EOLunhyphen"/>twyſe nor vnrightwyſe / good nor evell / but firſt we are good ere we doo good workes &amp; evell ere we do evell workes / ergo no workes neyther ſaue vs nor co<g ref="char:cmbAbbrStroke">̄</g>de<g ref="char:cmbAbbrStroke">̄</g>pne vs. Thou wilt ſaye / the<g ref="char:cmbAbbrStroke">̄</g> maketh it no matter what we do. I anſwere / yes. For if thou do evell / it is a ſure argume<g ref="char:cmbAbbrStroke">̄</g>t y<hi rend="sup">t</hi> thou arte evell / &amp; wanteſt y<hi rend="sup">•</hi> faith. If thou doo good it is an argume<g ref="char:cmbAbbrStroke">̄</g>t y<hi rend="sup">t</hi> thou arte good &amp; haſt y<hi rend="sup">•</hi> faith / for a good tre bereth good frute and an evell tre evell frute / yet good frute maketh not y<hi rend="sup">e</hi> tre good / nor evell frute y<hi rend="sup">e</hi> tre evell / ſo y<hi rend="sup">e</hi> man is good ere he do good dedes ad evell ere he do evell dedes. The ma<g ref="char:cmbAbbrStroke">̄</g> is y<hi rend="sup">•</hi> thre / his workes are y<hi rend="sup">e</hi> frute. Faith maketh y<hi rend="sup">e</hi> good tre &amp; incredulite y<hi rend="sup">e</hi> evel tre ſuch a tre ſuch frute ſuch a ma<g ref="char:cmbAbbrStroke">̄</g> ſuch wor<g ref="char:EOLunhyphen"/>kes. For all y<hi rend="sup">t</hi> is done in faith pleaſeth god &amp; are good workes. And all y<hi rend="sup">•</hi> is done with out faith diſpleaſeth god and are evell workes.</p>
+                  <p>Vvho ſo ever beleueth or thinketh to be ſaued his workes denieth y<hi rend="sup">t</hi> chriſt is his ſauiour / y<hi rend="sup">t</hi> chr<g ref="char:EOLunhyphen"/>iſt dyed for him &amp; all thinge y<hi rend="sup">t</hi> ꝑtayneth to chriſt. For how is he thy ſauioure / it thou mighteſt ſave thy ſelfe by thy workes? or wherto ſhulde he dye for y<hi rend="sup">•</hi> if any workes might have ſaued y<hi rend="sup">•</hi>? what is this to ſaye / chriſt dyed for y<hi rend="sup">•</hi>? verelye y<hi rend="sup">t</hi> is / thou ſhuldeſt haue died ꝑpetuallye / &amp; chriſt to delyver y<hi rend="sup">•</hi> fro y<hi rend="sup">t</hi> deeth / died for y<hi rend="sup">•</hi> &amp; chaunged thy
+<pb facs="tcp:180791:8" rendition="simple:additions"/>ꝑpetuall deeth in to his awne deeth. For thou madeſt y<hi rend="sup">•</hi> faute / &amp; he ſuffred y<hi rend="sup">e</hi> payne / &amp; y<hi rend="sup">t</hi> for y<hi rend="sup">•</hi> lo<g ref="char:EOLunhyphen"/>ue he had to the ere ever thou waſt borne when thou haddeſt done neyther good nor evell. Now ſith he hath payed thy dette thou nedeſt not: no thou canſt not / but ſhuldeſt be dapned if his blo<g ref="char:EOLunhyphen"/>nde were not. But ſith he was puniſhed for the thou ſhalt not be puniſhed. Finallye / he hath de<g ref="char:EOLunhyphen"/>lyvered y<hi rend="sup">e</hi> fro<g ref="char:cmbAbbrStroke">̄</g> thy conde<g ref="char:cmbAbbrStroke">̄</g>pnacio<g ref="char:cmbAbbrStroke">̄</g> &amp; all evell / &amp; deſy<g ref="char:EOLunhyphen"/>reth nought of the but y<hi rend="sup">t</hi> thou wilt aknowlege what he hath done for y<hi rend="sup">•</hi> &amp; beare it in minde / &amp; y<hi rend="sup">t</hi> thou woldeſt helpe other for his ſake both in worde &amp; dede / eve<g ref="char:cmbAbbrStroke">̄</g> as he hath holpe<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">•</hi> for nought &amp; with out rewarde / O how readye wolde we be to helpe other / if we knewe his goodneſſe &amp; gent<g ref="char:EOLunhyphen"/>leneſſe towardes vs. He is a good &amp; a gentle lor<g ref="char:EOLhyphen"/>de for he doth all for nought. Lette vs I beſech you folow his foteſteppes whom all the worlde ought to prayſe and worſhuppe / Amen</p>
+               </div>
+               <div type="section">
+                  <head>He that thinketh to be ſaved by his workes calleth him ſelfe Chriſt</head>
+                  <p>For he calleth him ſelfe his ſavioure whych partayneth to chriſt onlye. What is a ſauioure but he y<hi rend="sup">t</hi> ſaveth / &amp; he ſayeth I ſaue my ſelfe / w<g ref="char:EOLhyphen"/>hich is as moch to ſaye as I am chriſt for chriſt onlye is the ſavioure of the worlde we ſhulde do no good workes for y<hi rend="sup">•</hi> ente<g ref="char:cmbAbbrStroke">̄</g>t to get<g ref="char:EOLunhyphen"/>te the enheritaunce of heave<g ref="char:cmbAbbrStroke">̄</g> or remiſſio<g ref="char:cmbAbbrStroke">̄</g> of ſinne For who ſo ever beleveth to gette y<hi rend="sup">•</hi> enherita<g ref="char:EOLhyphen"/>unce of heave<g ref="char:cmbAbbrStroke">̄</g> or remiſſio<g ref="char:cmbAbbrStroke">̄</g> of ſinne thorow wor<g ref="char:EOLhyphen"/>kes / he beleueth not to gette y<hi rend="sup">t</hi> for chriſtes ſake. And they y<hi rend="sup">t</hi> beleue not y<hi rend="sup">t</hi> their ſinnes are forge<g ref="char:EOLhyphen"/>ue<g ref="char:cmbAbbrStroke">̄</g> the<g ref="char:cmbAbbrStroke">̄</g> and y<hi rend="sup">t</hi> they ſhall be ſaved for chriſtes ſa<g ref="char:EOLhyphen"/>ke / they beleue not y<hi rend="sup">•</hi> goſpell. For the goſpell ſa<g ref="char:EOLhyphen"/>yeth / you ſhall be ſaued for chriſtes ſake / youre ſinnes are forgeue<g ref="char:cmbAbbrStroke">̄</g> for chriſtes ſake. He y<hi rend="sup">t</hi> bele<g ref="char:EOLhyphen"/>veth not y<hi rend="sup">•</hi> goſpel heleueth not god. So it folo<g ref="char:EOLhyphen"/>weth
+<pb facs="tcp:180791:9" rendition="simple:additions"/>y<hi rend="sup">t</hi> they which beleve to be ſaved by their workes / or to gette remiſſion of their ſinnes by their awne dedes beleue not god: but recounte him as a lyar &amp; ſo vtterlye denye him to be god. Thou wilt ſaye / ſhal we the<g ref="char:cmbAbbrStroke">̄</g> do no good dedes? I ſaye not ſo but I ſaye we ſhulde do no good workes for y<hi rend="sup">e</hi> ente<g ref="char:cmbAbbrStroke">̄</g>t to gette y<hi rend="sup">e</hi> enheritaunce of heave<g ref="char:cmbAbbrStroke">̄</g> or remiſſion of ſynne<g ref="char:punc">▪</g> For if we beleue to gette y<hi rend="sup">e</hi> enheritau<g ref="char:cmbAbbrStroke">̄</g>ce of heave<g ref="char:cmbAbbrStroke">̄</g> thorow good wor<g ref="char:EOLunhyphen"/>kes / the<g ref="char:cmbAbbrStroke">̄</g> we beleue not to gette it thorow y<hi rend="sup">e</hi> pro<g ref="char:EOLhyphen"/>miſe of god: or if we thinke to gette remiſſion of oure ſinne the we beleue not y<hi rend="sup">t</hi> they are forgeue<g ref="char:cmbAbbrStroke">̄</g> vs / &amp; ſo we counte god a lyar. For god ſayeth / thou ſha<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t haue y<hi rend="sup">e</hi> enheritaunce of heaue<g ref="char:cmbAbbrStroke">̄</g> for my ſonnes ſake / thy ſinnes are forgeue<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> for miſon<g ref="char:EOLunhyphen"/>nes ſake &amp; you ſaye it is not ſo / but I wil winne it thorow my workes. So I co<g ref="char:cmbAbbrStroke">̄</g>de<g ref="char:cmbAbbrStroke">̄</g>pne not good redis / But I code<g ref="char:cmbAbbrStroke">̄</g>pne y<hi rend="sup">e</hi> falſe truſt in anye wor<g ref="char:EOLunhyphen"/>kes / for al y<hi rend="sup">e</hi> workes y<hi rend="sup">t</hi> a ma putteth co<g ref="char:cmbAbbrStroke">̄</g>fide<g ref="char:cmbAbbrStroke">̄</g>ce in are therwith poyſoned &amp; become evel. Therfore do ye good workes but beware you do the<g ref="char:cmbAbbrStroke">̄</g> not to gette any good thorow y<hi rend="sup">t</hi> / for if thou do / thou receyveſt the good not as the gifte of god but as dette to the and makeſt thy ſelfe felowe with god becauſe thou wilt take nothinge of him for nought. what neadeth he any thynge of thyne which geveth al thinge &amp; is not y<hi rend="sup">•</hi> poorer? Ther<g ref="char:EOLhyphen"/>fore do nothinge to him but take of him / for he is a getle lorde / &amp; with a gladder wyll geueth vs all y<hi rend="sup">t</hi> we nede / then we take it of him / therfore if we wa<g ref="char:cmbAbbrStroke">̄</g>t ought let vs wyte oure ſelues. Preaſſe not then to y<hi rend="sup">e</hi> enheritaunce of heue<g ref="char:cmbAbbrStroke">̄</g> thorow pre<g ref="char:EOLhyphen"/>ſumpcio<g ref="char:cmbAbbrStroke">̄</g> of thy good workes for if thou do / thou counteſt thy ſilfe holye and egall to him becauſe thou wilt take nothinge of him for nought: &amp; ſo ſhalt thou falle as Lucifer felle for his pride.</p>
+               </div>
+            </div>
+            <trailer>Finis.</trailer>
+            <pb facs="tcp:180791:9" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
